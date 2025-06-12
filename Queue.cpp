@@ -67,3 +67,6 @@ public:
         int rear_position = rear;
 
         if (front_position <= rear_position)
+        {
+            while (front_position <= rear_position)
+            {
