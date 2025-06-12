@@ -58,3 +58,6 @@ public:
             if (front == max - 1)
                 front = 0;
             else
+                front = front + 1;
+        }
+    }
