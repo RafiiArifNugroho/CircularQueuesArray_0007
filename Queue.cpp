@@ -75,3 +75,6 @@ public:
             }
         }
         else
+        {
+            while (front_position <= max - 1)
+            {
