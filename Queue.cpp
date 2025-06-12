@@ -78,3 +78,8 @@ public:
         {
             while (front_position <= max - 1)
             {
+                cout << queues_array[front_position] << " ";
+                front_position++;
+            }
+
+            front_position = 0;
