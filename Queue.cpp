@@ -83,3 +83,12 @@ public:
             }
 
             front_position = 0;
+            while (front_position <= rear_position)
+            {
+                cout << queues_array[front_position] << " ";
+                front_position++;
+            }
+            cout << endl;
+        }
+    }
+};
