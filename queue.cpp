@@ -102,3 +102,26 @@ public:
             }
             cout << endl;
         }
+
+        else
+        {
+            // jika REAR < FRONT, traverse dari FRONT hingga akhir array
+            while (FRONT_Position <= max - 1)
+            {
+                cout << queue_array[FRONT_Position] << " ";
+                FRONT_Position++;
+            }
+
+            FRONT_Position = 0;
+
+            // traverse dari awal array hingga REAR
+            while (FRONT_Position <= REAR_Position)
+            {
+                cout << queue_array[FRONT_Position] << " ";
+                FRONT_Position++;
+            }
+
+            cout << endl;
+        }
+    }
+};
